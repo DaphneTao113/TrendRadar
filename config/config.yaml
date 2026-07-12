@@ -266,22 +266,15 @@ notification:
   # 推送渠道配置
   channels:
     feishu:
-      webhook_url: ""                 # 飞书机器人 webhook URL
-# 飞书
-feishu:
-  webhook_url: "https://open.feishu.cn/open-apis/bot/v2/hook/7b6021df-0542-4d73-b8db-f543546cc6a6"
-  
+      webhook_url: "https://open.feishu.cn/open-apis/bot/v2/hook/7b6021df-0542-4d73-b8db-f543546cc6a6"                 # 飞书机器人 webhook URL
+
     dingtalk:
       webhook_url: ""                 # 钉钉机器人 webhook URL
 
     wework:
-      webhook_url: ""                 # 企业微信机器人 webhook URL
-      msg_type: "markdown"            # 消息类型：markdown(群机器人) | text(个人微信应用)
-      # 企业微信  
-wework:
-  webhook_url: "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=be4192e4-eb39-4224-bb6c-abe39c7d4b61"
-  msg_type: "text"
-
+      webhook_url: "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=be4192e4-eb39-4224-bb6c-abe39c7d4b61"                 # 企业微信机器人 webhook URL
+      msg_type: "text"            # 消息类型：markdown(群机器人) | text(个人微信应用)
+      
     telegram:
       bot_token: ""                   # Telegram Bot Token
       chat_id: ""                     # Telegram Chat ID
